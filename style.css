@@ -1,0 +1,243 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Times New Roman', Times, serif
+}
+.header{
+    background-image:url(image4.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    color:aliceblue;
+}
+.header .title{
+    padding:60px 0 40px 40px;
+    display:flex;
+    justify-content:space-between;
+}
+.header .title .logo{
+    font-size:25px;
+    margin-left:60px;
+    font-style:oblique;
+}
+.header .title .navbar{
+    display:flex;
+    justify-content:space-evenly;
+    padding-right:40px;
+
+}
+.header .title .navbar li{
+    font-size:15px;
+    padding:5px 10px;
+    text-transform:uppercase;
+    list-style-type:none;
+    text-decoration:none;
+    color:aliceblue;
+}
+.header .title .navbar li a{
+    text-decoration:none;
+    color:aliceblue;
+
+}
+span{
+    color:red;
+    opacity:0.7;
+}
+.header .title .navbar li a:hover{
+    color:orange;
+    font-size:17px;
+
+}
+.header .content{
+    font-style:italic;
+    margin-left:200px;
+    margin-top:100px;
+}
+.header .content h2{
+    font-size:35px;
+    letter-spacing:3px;
+    color:burlywood;
+    opacity:0.6;
+}
+.header .content h3{
+    font-size:35px;
+    letter-spacing:3px;
+    color:burlywood;
+    margin-left:50px;
+    opacity:0.6;
+}
+.header .content  a{
+    position:absolute;
+    text-decoration:none;
+    color:azure;
+    background-color:bisque;
+    padding:10px;
+    color:black;
+    border-radius:50px;
+    margin-top:10px;
+
+}
+.header .content  a:hover{
+    background-color:darkkhaki;
+}
+.mens h1{
+    text-align:center;
+    color:red;
+    margin:20px 0
+    ;
+    opacity:0.6;
+}
+.mens .items{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.mens .items .one img{
+    width:200px;
+    height:200px;
+    
+    
+}
+.mens .items .one{
+    border:2px solid black;
+    margin:30px;
+
+}
+.mens .items .one h2{
+    text-align:center;
+    color:black;
+    opacity:0.8;
+}
+.mens .items .one button{
+    margin-left:60px;
+    margin-bottom:5px;
+    padding:5px 5px;
+    color:black;
+    background-color:darkgoldenrod;
+}
+.womens h1{
+    text-align:center;
+    color:red;
+    margin:20px 0
+    ;
+    opacity:0.6;
+}
+.womens .items{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.womens .items .one img{
+    width:200px;
+    height:200px;
+    
+    
+}
+.womens .items .one{
+    border:2px solid black;
+    margin:30px;
+
+}
+.womens .items .one h2{
+    text-align:center;
+    color:black;
+    opacity:0.8;
+}
+.womens .items .one button{
+    margin-left:60px;
+    margin-bottom:5px;
+    padding:5px 5px;
+    color:black;
+    background-color:darkgoldenrod;
+}
+.access h1{
+    text-align:center;
+    color:red;
+    margin:20px 0
+    ;
+    opacity:0.6;
+}
+.access .items{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.access .items .one img{
+    width:200px;
+    height:200px;
+    
+    
+}
+.access .items .one{
+border:2px solid black;
+    margin:30px;
+
+}
+.access .items .one h2{
+    text-align:center;
+    color:black;
+    opacity:0.8;
+}
+.access .items .one button{
+    margin-left:60px;
+    margin-bottom:5px;
+    padding:5px 5px;
+    color:black;
+    background-color:darkgoldenrod;
+}
+.contact{
+    background-color:slategray;
+    color:azure;
+    height:70vh;
+    text-align:center;
+}
+.contact h2{
+    position:relative;
+    padding-top:20px;
+    color:antiquewhite;
+} 
+.contact address{
+    padding-top:20px;
+    font-size:17px;
+}
+.social-icons a i{
+    position:relative;
+    padding:30px 40px;
+    font-size:25px;
+    color:white;
+}
+.social-icons a i:hover{
+    color:coral;
+}
+footer{
+    text-align:center;
+    padding:10px ;
+}
+@media screen and (max-width:800px){
+    .header{
+        
+        width:100%;
+        height:100vh;
+        color:aliceblue;
+        background-position:left;
+    }
+    .contact{
+        background-color:slategray;
+        color:azure;
+        height:50vh;
+        text-align:center;
+    }
+    .header .content{
+        margin-left:180px;
+    }
+    .header .content  a{
+        position:absolute;
+        text-decoration:none;
+        color:azure;
+        background-color:bisque;
+        padding:6px;
+        color:black;
+}
+}
+
